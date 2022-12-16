@@ -1,0 +1,33 @@
+{
+    "dishes": [
+        {
+            "name": "Millet porridge with fruit",
+            "cuisine": "polish",
+            "categories": ["vegan", "breakfast"],
+            "ingredients": ["millet groats", "apple", "unsulfured raisins", "ried goji berries", "bee honey", "cloves"],
+            "max number": 50,
+            "price": 3.59,
+            "description": "Millet porridge with strawberries, apples and raspberries is a meal for lovers of sweet, fruity flavors. The culinary use of millet groats is much wider and is not limited to the preparation of the classic breakfast millet. It is often served as a carbohydrate supplement for dinner or a component of a nutritious salad.",
+            "photos": ["https://foodsbyann.com/data/include/img/news/1557929408.jpg"]
+        },{
+            "name": "Banana brownie",
+            "cuisine": "international",
+            "categories": ["desert", "vegan"],
+            "ingredients": ["banana", "coconut yogurt", "coconut sugar", "egg", "coconut oil", "salt", "baking powder", "dark chocolate", "vanilla extract", "oat flour"],
+            "max number": 22,
+            "price": 2.89,
+            "description": "High-quality cocoa and dark chocolate are responsible for the deep, chocolate taste of the banana brownie. In our recipe for banana cake, raw cocoa was used, which, unlike other available solutions, will provide the most nutrients.",
+            "photos": ["https://foodsbyann.com/data/include/img/news/1555596994.jpg"]
+        },
+        {
+            "name": "Salad with arugula and chicken",
+            "cuisine": "italian",
+            "categories": ["vegan", "dinner", "lunch"],
+            "ingredients": [],
+            "max number": 45,
+            "price": 5.66,
+            "description": "A salad with boiled chicken served in small quantities can be an appetizer before the main course is served. Our proposal of salad with arugula and chicken can be a separate meal, because the portion prepared according to ingredients listed in the recipe provides about 380 kcal.",
+            "photos": ["https://foodsbyann.com/data/include/img/news/1601028031.jpg"]
+        }
+    ]
+}
