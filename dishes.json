@@ -1,33 +1,252 @@
 {
-    "dishes": [
-        {
-            "name": "Millet porridge with fruit",
-            "cuisine": "polish",
-            "categories": ["vegan", "breakfast"],
-            "ingredients": ["millet groats", "apple", "unsulfured raisins", "ried goji berries", "bee honey", "cloves"],
-            "max number": 50,
-            "price": 3.59,
-            "description": "Millet porridge with strawberries, apples and raspberries is a meal for lovers of sweet, fruity flavors. The culinary use of millet groats is much wider and is not limited to the preparation of the classic breakfast millet. It is often served as a carbohydrate supplement for dinner or a component of a nutritious salad.",
-            "photos": ["https://foodsbyann.com/data/include/img/news/1557929408.jpg"]
-        },{
-            "name": "Banana brownie",
-            "cuisine": "international",
-            "categories": ["desert", "vegan"],
-            "ingredients": ["banana", "coconut yogurt", "coconut sugar", "egg", "coconut oil", "salt", "baking powder", "dark chocolate", "vanilla extract", "oat flour"],
-            "max number": 22,
-            "price": 2.89,
-            "description": "High-quality cocoa and dark chocolate are responsible for the deep, chocolate taste of the banana brownie. In our recipe for banana cake, raw cocoa was used, which, unlike other available solutions, will provide the most nutrients.",
-            "photos": ["https://foodsbyann.com/data/include/img/news/1555596994.jpg"]
-        },
-        {
-            "name": "Salad with arugula and chicken",
-            "cuisine": "italian",
-            "categories": ["dinner", "lunch"],
-            "ingredients": [],
-            "max number": 45,
-            "price": 5.66,
-            "description": "A salad with boiled chicken served in small quantities can be an appetizer before the main course is served. Our proposal of salad with arugula and chicken can be a separate meal, because the portion prepared according to ingredients listed in the recipe provides about 380 kcal.",
-            "photos": ["https://foodsbyann.com/data/include/img/news/1601028031.jpg"]
-        }
-    ]
+  "dishes": [
+    {
+      "name": "Millet porridge with fruit",
+      "cuisine": "polish",
+      "categories": ["vegan", "breakfast"],
+      "ingredients": [
+        "millet groats",
+        "apple",
+        "unsulfured raisins",
+        "ried goji berries",
+        "bee honey",
+        "cloves"
+      ],
+      "max number": 50,
+      "price": 3.59,
+      "description": "Millet porridge with strawberries, apples and raspberries is a meal for lovers of sweet, fruity flavors. The culinary use of millet groats is much wider and is not limited to the preparation of the classic breakfast millet. It is often served as a carbohydrate supplement for dinner or a component of a nutritious salad.",
+      "photos": ["https://foodsbyann.com/data/include/img/news/1557929408.jpg"]
+    },
+    {
+      "name": "Banana brownie",
+      "cuisine": "international",
+      "categories": ["desert", "vegan"],
+      "ingredients": [
+        "banana",
+        "coconut yogurt",
+        "coconut sugar",
+        "egg",
+        "coconut oil",
+        "salt",
+        "baking powder",
+        "dark chocolate",
+        "vanilla extract",
+        "oat flour"
+      ],
+      "max number": 22,
+      "price": 2.89,
+      "description": "High-quality cocoa and dark chocolate are responsible for the deep, chocolate taste of the banana brownie. In our recipe for banana cake, raw cocoa was used, which, unlike other available solutions, will provide the most nutrients.",
+      "photos": ["https://foodsbyann.com/data/include/img/news/1555596994.jpg"]
+    },
+    {
+      "name": "Salad with arugula and chicken",
+      "cuisine": "italian",
+      "categories": ["dinner", "lunch"],
+      "ingredients": [],
+      "max number": 45,
+      "price": 5.66,
+      "description": "A salad with boiled chicken served in small quantities can be an appetizer before the main course is served. Our proposal of salad with arugula and chicken can be a separate meal, because the portion prepared according to ingredients listed in the recipe provides about 380 kcal.",
+      "photos": ["https://foodsbyann.com/data/include/img/news/1601028031.jpg"]
+    },
+    {
+      "name": "Buddah bowl with chickpea cutlets, sweet potato and pomegranate",
+      "cuisine": "hindi",
+      "categories": ["vegan", "gluten-free", "dinner", "lunch"],
+      "ingredients": [
+        "millet groats",
+        "cooked chickpeas",
+        "garlic",
+        "tomato",
+        "yeast flakes",
+        "black salt",
+        "cumin",
+        "tahini",
+        "mapple syrop",
+        "mustard"
+      ],
+      "max number": 5,
+      "price": 9.7,
+      "description": "Buddah bowl with chickpea cutlets, sweet potato and pomegranate is a great idea for a full-fledged meat-free dinner! The cutlets are very easy to prepare and you can make them ahead of time.The combination of baked sweet potato, pomegranate and tahini dressing is brilliant!",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/10/Buddah-bowl-z-kotlecikami-z-ciecierzycy-batatem-i-granatem-1080x1350.jpg",
+        "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/fcc23aa4-a044-4fbf-accc-cf1602720ff2/Derivates/0f8708a3-98c2-49bc-88d5-a9c88dcada1e.jpg",
+        "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/D75D91EB-3742-4D4A-A8C2-CE08A7B29DC3/Derivates/904d0e97-0221-4d82-9ea7-a035b476863b.jpg"
+      ]
+    },
+    {
+      "name": "Pyry with vegan gzik and tofu cracklings",
+      "cuisine": "polish",
+      "categories": ["vegan", "dinner"],
+      "ingredients": [
+        "young potatoes",
+        "sunflower seeds",
+        "lemon",
+        "tofu",
+        "olive oil",
+        "onion"
+      ],
+      "max number": 50,
+      "price": 10,
+      "description": "Pyry with vegan gzik and tofu greaves is a dish I ate in one of Poznań restaurants. Despite the fact that I tried many vegan dishes then, it was the pyry that conquered my heart. I had to cook them at home! It's a healthy and delicious proposition for a plant-based dinner. It contains a lot of protein, unsaturated fatty acids and minerals.",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/09/Pyry-z-wega%C5%84skim-gzikiem-1080x1350.jpg",
+        "https://owsiana.pl/wp-content/uploads/2019/09/Pyry-z-wega%C5%84skim-gzikiem-i-skwarkami-z-tofu-1080x1350.jpg"
+      ]
+    },
+    {
+      "name": "Tortilla with tempeh, beetroot, avocado, and tahini sauce",
+      "cuisine": "mexican",
+      "categories": ["vegan", "lunch", "dinner"],
+      "ingredients": [
+        "tortilla",
+        "tempeh",
+        "soy sauce",
+        "avocado",
+        "tahini",
+        "lemon juice"
+      ],
+      "max number": 47,
+      "price": 8.0,
+      "description": "Tempeh tortilla is a great meal for people on a plant-based diet. It contains a lot of protein, unsaturated fatty acids and is full of vegetables. If you have more time, you can prepare tortillas yourself. It's not that complicated, but it takes some time. I make pancakes like this only when my friends come over for dinner.",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/09/tortilla-z-tempehem-1080x1350.jpg",
+        "https://createmindfully.com/wp-content/uploads/2022/01/tempeh-avocado-wrap-close-up.jpg",
+        "http://cdn.shopify.com/s/files/1/0264/2916/1562/articles/barbecue-tempeh-wraps-with-kimchi-barbecue-sauce-recipe-ottawa-farm-fresh-1_1200x1200.jpg?v=1634136440"
+      ]
+    },
+    {
+      "name": "Pasta with vegetables and lentils",
+      "cuisine": "international",
+      "categories": ["dinner", "lunch", "vegan"],
+      "ingredients": [
+        "penne pasta",
+        "Zucchini",
+        "red lentils",
+        "passata",
+        "garlic",
+        "onion"
+      ],
+      "max number": 5,
+      "price": 10.99,
+      "description": "Pasta with vegetables and lentils is an idea for a simple dinner without meat. The dish is vegan and almost one-pot. Put everything in one pan and cook the pasta. It is a very healthy and filling dish. Perfect as a lunch to warm up at work. This is a very good proposition for people who are slimming. Due to the large amount of vegetables and fiber, the dish has a large volume and will ensure a feeling of satiety for longer.",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/08/makaron-z-warzywami-i-soczewic%C4%85-1080x1350.jpg"
+      ]
+    },
+    {
+      "name": "Noodles with minced tofu",
+      "cuisine": "international",
+      "categories": ["dinner", "lunch", "vegan"],
+      "ingredients": [
+        "tofu",
+        "soy sauce",
+        "mapple syrop",
+        "smoked paprika",
+        "onion",
+        "olive oil",
+        "garlic",
+        "passata"
+      ],
+      "max number": 30,
+      "price": 11.0,
+      "description": "Pasta with minced tofu is for me so far the best replacement for classic noodles with minced meat. I have tried many versions, but this one beats them all. Admittedly, it is more labor-intensive because the tofu must be frozen first and then baked, but it is definitely worth doing. I still eat meat from time to time because I like it. That's why I enjoy the taste of this recipe so much! I think that the greatest lovers of pasta with minced meat and tomato sauce will like it. My vegetarian friend, during my absence in the apartment, took a portion of this pasta from the fridge and heated it up. Upon my return, she asked if it was meat by any chance",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/07/Makaron-z-mielonym-tofu-1080x1350.jpg"
+      ]
+    },
+    {
+      "name": "Spicy vegan dan dan noodles",
+      "cuisine": "international",
+      "categories": ["dinner", "lunch", "vegan"],
+      "ingredients": [
+        "tofu",
+        "soy sauce",
+        "mapple syrop",
+        "smoked paprika",
+        "onion",
+        "olive oil",
+        "garlic",
+        "passata"
+      ],
+      "max number": 20,
+      "price": 13.0,
+      "description": "Pasta with minced tofu is for me so far the best replacement for classic noodles with minced meat. I have tried many versions, but this one beats them all. Admittedly, it is more labor-intensive because the tofu must be frozen first and then baked, but it is definitely worth doing. I still eat meat from time to time because I like it. That's why I enjoy the taste of this recipe so much! I think that the greatest lovers of pasta with minced meat and tomato sauce will like it. My vegetarian friend, during my absence in the apartment, took a portion of this pasta from the fridge and heated it up. Upon my return, she asked if it was meat by any chance",
+      "photos": [
+        "https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/11/20200518_Bosh20Wk2_DandanNoodles_960.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_y-yreBEhaNYH_w20rGT18lh-vroa5VcD2bkPv424hvl7Iikkgbb3mEQ9nb6jcH-Z8_g&usqp=CAU"
+      ]
+    },
+    {
+      "name": "Panko tofu noodle bowl",
+      "cuisine": "international",
+      "categories": ["dinner", "lunch", "vegan"],
+      "ingredients": [
+        "panko",
+        "tofu",
+        "soy sauce",
+        "mapple syrop",
+        "smoked paprika",
+        "sesame oil",
+        "onion",
+        "olive oil",
+        "garlic",
+        "passata"
+      ],
+      "max number": 16,
+      "price": 12.0,
+      "description": "This vegan Panko Tofu 'Meat' Noodle Bowl is the perfect weeknight dinner. The whole family will enjoy this easy and flavorful dish. Tofu adds plant-based protein and heart healthy fats to this Asian-inspired recipe.",
+      "photos": [
+        "https://cookingforpeanuts.com/wp-content/uploads/2021/04/Panko-Tofu-Meat-Noodles.jpg"
+      ]
+    },
+    {
+      "name": "Crispy oatmeal waffles",
+      "cuisine": "international",
+      "categories": ["vegan", "breakfast"],
+      "ingredients": ["egg", "oatmeal", "soy drink", "baking powder", "salt"],
+      "max number": 40,
+      "price": 6.9,
+      "description": "Crispy oatmeal waffles are my favorite breakfast! Since I bought the waffle maker, I have already tested several recipes and so far this one is my favourite. Healthy waffles are usually soft and rubbery. It is difficult to achieve the right crunchiness at home. Oat waffles according to this recipe are delicious and crispy.",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/07/chrupi%C4%85ce-gofry-owsiane-1080x1350.jpg",
+        "https://cookieandkate.com/images/2014/09/gluten-free-oat-waffles-recipe-2-1.jpg",
+        "https://www.runningwithspoons.com/wp-content/uploads/2016/11/Flourless-Oatmeal-Waffles.jpg"
+      ]
+    },
+    {
+      "name": "Tomato curry with tofu and cauliflower",
+      "cuisine": "hindi",
+      "categories": ["vegan", "dinner"],
+      "ingredients": [
+        "olive oil",
+        "tofu",
+        "onion",
+        "coconut milk",
+        "rice",
+        "ginger",
+        "garlic"
+      ],
+      "max number": 60,
+      "price": 5.0,
+      "description": "Tomato curry with tofu and cauliflower was the result of cleaning out the fridge and its taste exceeded my wildest expectations. Cauliflower is not my favorite vegetable, and water cauliflower is a nightmare at all.",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/07/Pomidorowe-curry-z-tofu-i-kalafiorem-1080x1350.jpg",
+        "https://cupfulofkale.com/wp-content/uploads/2019/02/Mushroom-Tofu-Tikka-Masala.jpeg",
+        "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps194725_SD163614D12_02_4b-5.jpg"
+      ]
+    },
+    {
+      "name": "Strawberry Cashew",
+      "cuisine": "international",
+      "categories": ["gluten-free", "vegan", "desert"],
+      "ingredients": ["dates", "cashew", "almond", "cocoa"],
+      "max number": 50,
+      "price": 10,
+      "description": "Strawberry cashew is the perfect cake for people on a vegan diet. It is delicious, healthy and filling. A piece of strawberry cashew can replace breakfast or afternoon tea. The cake is very simple to make and does not require baking. ",
+      "photos": [
+        "https://owsiana.pl/wp-content/uploads/2019/06/Truskawkowy-nerkownik-1080x1350.jpg",
+        "https://thehintofrosemary.com/wp-content/uploads/2020/05/healthy-strawberry-cashew-cheesecake-scaled.jpg"
+      ]
+    }
+  ]
 }
