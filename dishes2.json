@@ -1,0 +1,140 @@
+{
+    "dishes": [
+      {
+        "id": 0,
+        "name": "Baked beans",
+        "cuisine": "polish",
+        "categories": ["dinner"],
+        "ingredients": ["dry beans", "bacon", "sausage", "garlic", "tomatoes"],
+        "maxNumber": 57,
+        "price": 18,
+        "description": "Traditional baked beans made of soaked and boiled Piękny Jaś beans. Perfectly selected ingredients. Detailed description and step-by-step photos. I cordially invite you for the recipe for the best baked beans!",
+        "photos": [
+          "https://d3iamf8ydd24h9.cloudfront.net/pictures/articles/2019/09/1237634-v-1080x1080.jpg",
+          "https://cdn.aniagotuje.com/pictures/articles/2018/07/87531-v-720x1080.jpg",
+          "https://cdn.aniagotuje.com/pictures/articles/2018/07/87621-v-720x1041.jpg"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Chicken in puff pastry",
+        "cuisine": "french",
+        "categories": ["dinner", "lunch"],
+        "ingredients": ["puff pastry", "spinach", "chicken", "garlic", "butter", "pepper", "cheese"],
+        "maxNumber": 20,
+        "price": 1,
+        "description": "Chicken in puff pastry is an interesting recipe for a delicious presentation of chicken fillets. Stuffing with spinach or mushrooms and cheese goes perfectly with delicate meat. ",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/11/35395650-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/35620360-v-720x1037.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/35620373-v-720x1072.jpg"]
+      },
+      {
+        "id": 2,
+        "name": "devolay",
+        "cuisine": "polish",
+        "categories": ["dinner", "lunch"],
+        "ingredients": ["chicken", "butter", "parsley", "wheat flour", "salt", "garlic"],
+        "maxNumber": 50,
+        "price": 5,
+        "description": "The de volaille cutlet, i.e. the classic Devolay with herb butter, is a delicious proposition for a special dinner. I invite you for my proven recipe for juicy chicken breast rolls. ",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/11/35122671-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/35122674-v-720x894.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/35122688-v-720x973.jpg"]
+      },
+      {
+        "id": 3,
+        "name": "Duvets",
+        "cuisine": "polish",
+        "categories": [],
+        "ingredients": ["wheat flour", "olive oil", "garlic", "beef", "egg", "butter"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Kołduny are delicious dumplings stuffed with raw beef with onions and spices and cooked in boiling water. I invite you for my favorite and proven recipe. ",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/11/35074322-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/35074417-v-720x894.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/35074430-v-720x1080.jpg"]
+      },
+      {
+        "id": 4,
+        "name": "Pork chops",
+        "cuisine": "polish",
+        "categories": ["dinner", "lunch"],
+        "ingredients": ["pork neck", "onion", "garlic", "wheat flour", "olive oil", "salt", "paprika"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Delicious pork chops in their own sauce is a great idea for dinner with the addition of Silesian dumplings or potato dumplings.",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/11/34815482-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/11/34836999-v-720x989.jpg"]
+      },
+      {
+        "id": 5,
+        "name": "Stuffed potatoes",
+        "cuisine": "international",
+        "categories": ["vegetarian", "dinner"],
+        "ingredients": ["potatoe", "onion", "garlic", "butter", "olive oil"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Stuffed potatoes are super delicious and extremely easy to make. My favorite version is potatoes stuffed with minced meat. This is the recipe I'm offering this time. ",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/09/33136691-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/09/33136695-v-720x978.jpg"]
+      },
+      {
+        "id": 6,
+        "name": "Gazpacho",
+        "cuisine": "spanish",
+        "categories": ["vegan", "dinner", "lunch"],
+        "ingredients": ["tomatoes", "cucumbers", "pepper", "garlic", "white bread", "virgin olive oil", "lemon juice"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Gazpacho is a delicious and super refreshing cold soup, which is prepared from raw tomatoes and other vegetables with the addition of olive oil and white bread. This recipe is perfect for coming and as a healthy and tasty meal every day.",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/06/29672046-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/06/29672477-v-720x1081.jpg"]
+      },
+      {
+        "id": 7,
+        "name": "Christmas sour soup",
+        "cuisine": "polish",
+        "categories": ["vegan", "lunch", "dinner"],
+        "ingredients": ["dried mushrooms", "carrot", "pepper", "parsley", "celery", "garlic"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "I invite you for my proven recipe for a delicious Christmas sour soup . This is a Lenten soup that I prepare on vegetable broth. Obligatory with dried mushrooms and rye sourdough. ",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2020/11/9973410-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2020/11/9973427-v-720x969.jpg"]
+      },
+      {
+        "id": 8,
+        "name": "Borscht",
+        "cuisine": "polish",
+        "categories": ["vegan", "dinner"],
+        "ingredients": ["beetroot", "garlic", "dried mushrooms"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Red borscht is one of the most delicious Polish soups. My recipe for red borscht is very old and proven. I usually cook red borscht with potatoes for my family. Welcome!",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2019/12/1713394-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2019/12/1713427-v-720x720.jpg"]
+      },
+      {
+        "id": 9,
+        "name": "Vegetable broth",
+        "cuisine": "international",
+        "categories": ["vegan", "dinner"],
+        "ingredients": ["carrots", "onion", "parsley", "celery", "dried mushrooms", "leek"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "It's good to know a good recipe for vegetable broth . Vegetable stock is the best base for soups and sauces. Such vegetable broth with the addition of several herbs and spices can also be divided into portions and frozen.",
+        "photos": ["https://d3iamf8ydd24h9.cloudfront.net/pictures/articles/2018/10/658614-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2018/10/141349-v-720x960.jpg"]
+      },
+      {
+        "id": 10,
+        "name": "Pancakes on yogurt",
+        "cuisine": "international",
+        "categories": ["breakfast", "dessert", "lunch"],
+        "ingredients": ["wheat flour", "egg", "yoghurt", "butter", "apple"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Pancakes on yogurt with lots of apples are a delicious idea not only for breakfast but also for dinner. The recipe does not contain yeast, and you don't even need a mixer to make it. ",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/10/33736550-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/10/33736553-v-720x974.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/10/33736566-v-720x1003.jpg"]
+      },
+      {
+        "id": 11,
+        "name": "Pistachio cheesecake",
+        "cuisine": "international",
+        "categories": ["dessert"],
+        "ingredients": ["minced cottage cheese", "pistachio paste", "fine sugar", "egg", "butter"],
+        "maxNumber": 50,
+        "price": 10,
+        "description": "Pistachio cheesecake baked on a simple cookie base is an extremely delicious and unique pastry. I invite you for my favorite recipe that will work even for Christmas.",
+        "photos": ["https://cdn.aniagotuje.com/pictures/articles/2022/12/36172637-v-1080x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/12/36172642-v-720x1080.jpg", "https://cdn.aniagotuje.com/pictures/articles/2022/12/36172655-v-720x1020.jpg"]
+      }
+    ]
+}
