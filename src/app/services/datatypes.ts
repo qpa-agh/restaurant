@@ -1,9 +1,6 @@
-
-
-
 export interface Dish {
     name: string;
-    cusisine: string;
+    cuisine: string;
     categories: string[];
     ingredients: string[];
     maxNumber: number;
