@@ -22,7 +22,7 @@
         {
             "name": "Salad with arugula and chicken",
             "cuisine": "italian",
-            "categories": ["vegan", "dinner", "lunch"],
+            "categories": ["dinner", "lunch"],
             "ingredients": [],
             "max number": 45,
             "price": 5.66,

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dish-wrapper {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.image-wrapper {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dish-price {
+    align-self: flex-end;
+    margin-inline: 4px;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1.0rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
