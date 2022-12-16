@@ -1,13 +1,12 @@
 <div class="dish-wrapper">
-  <h1>{{ dish.name | uppercase }}</h1>
-  <h2 class="dish-price">{{ dish.price }}</h2>
-  <h3>{{ dish.cuisine | uppercase }}</h3>
-  <p>{{ dish.maxNumber }}</p>
-  <p>{{ dish.description }}</p>
+  <div class="description-wrapper">
+    <h1>{{ dish.name | uppercase }}</h1>
+    <h2 class="dish-price">{{ dish.price }}$</h2>
+    <h3>{{ dish.cuisine | uppercase }}</h3>
+    <p>Available: {{ dish.maxNumber }}</p>
+    <p>{{ dish.description }}</p>
+  </div>
   <div class="image-wrapper">
-    <img
-      [src]="dish.photos[0]"
-      alt=""
-    />
+    <img [src]="dish.photos[0]" alt="" />
   </div>
 </div>

@@ -1,0 +1,13 @@
+*{
+    background-color: pink;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+    
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}

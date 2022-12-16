@@ -5,12 +5,17 @@
 }
 
 .dish-wrapper {
-    width: 200px;
+    width: 250px;
     border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
+}
+
+.description-wrapper {
+    height: 300px;
+    overflow: hidden;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 .image-wrapper {
@@ -18,10 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .image-wrapper img {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
     border-radius: 20px;
 }
 
@@ -31,13 +39,19 @@
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 h2 {
-    font-size: 1.0rem;
+    font-size: 0.9rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+    margin-bottom: 3px;
 }
 
 p {
     font-size: 0.8rem;
+    margin-bottom: 3px;
 }
