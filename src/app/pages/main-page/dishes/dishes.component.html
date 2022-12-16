@@ -1,2 +1,15 @@
-<h1>Całkiem: {{nrOfDishesInChart}}</h1>
-<app-dish-card *ngFor="let dish of (dishes | async)" [dish]="dish" (dishReservationNumberChanged)="handleReservationNrChanged($event)"></app-dish-card>
+<h1
+  [ngClass]="{
+    isLittleInBusket: nrOfDishesInChart < 10,
+    isALotInBusket: nrOfDishesInChart >= 10
+  }"
+>
+  Całkiem: {{ nrOfDishesInChart }}
+</h1>
+<div class="dishes-card-wrapper">
+  <app-dish-card
+    *ngFor="let dish of dishes | async"
+    [dish]="dish"
+    (dishReservationNumberChanged)="handleReservationNrChanged($event)"
+  ></app-dish-card>
+</div>
