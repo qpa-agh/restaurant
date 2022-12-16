@@ -1,8 +1,8 @@
 ### TODO Paulinka
 - komponent (dziecko dish-card) z plusikiem i minusikiem, ma @Output który mówi ile elementów (+ albo minus - wyłacza się jak nie można dodać/odjąc dania)
-- gdy jest mało pozostałych dań zmieniać kolor karty na inny, gdy jest 0 na jeszcze inny (ngClass)
-- najdroższe danie powinno mieć czerwoną obramówke, a najtańsze zieloną (ngClass)
-- cena ze znakiem przy wyświetlaniu
++ gdy jest mało pozostałych dań zmieniać kolor karty na inny, gdy jest 0 na jeszcze inny (ngClass)
++ najdroższe danie powinno mieć czerwoną obramówke, a najtańsze zieloną (ngClass)
++ cena ze znakiem przy wyświetlaniu
 - sumaryczna liczba wszystkich dań w koszyku (div w app-dishes)
 - zmiana tła app-dishes jeśli sumaryczna liczba dań jest mniejsza 10, albo większa lub równa 10
 - forms (Zadanie3 w pdf)

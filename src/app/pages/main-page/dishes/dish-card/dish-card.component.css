@@ -55,3 +55,19 @@ p {
     font-size: 0.8rem;
     margin-bottom: 3px;
 }
+
+.isCheapest{
+    border: 3px solid rgb(51, 153, 83);
+}
+
+.isMostExpensive {
+    border: 3px solid rgb(153, 58, 51);
+}
+
+.isSmallNumberOfItems {
+    background-color: palevioletred;
+}
+
+.isSoldOut {
+    background-color: rgb(121, 100, 107);
+}

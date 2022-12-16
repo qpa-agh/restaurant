@@ -1,4 +1,4 @@
-<div class="dish-wrapper">
+<div class="dish-wrapper" [ngClass]="{isMostExpensive: dish.id == 1, isCheapest: dish.id == 0, isSoldOut: dish.maxNumber == 0, isSmallNumberOfItems: dish.maxNumber <=5 && dish.maxNumber > 0}" >
   <div class="description-wrapper">
     <h1>{{ dish.name | uppercase }}</h1>
     <h2 class="dish-price">{{ dish.price }}$</h2>
