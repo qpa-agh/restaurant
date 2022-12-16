@@ -1,0 +1,31 @@
+<div class="form-wrapper">
+  <h1>Add new dish</h1>
+  <form [formGroup]="myForm">
+    <label for="name">name:</label>
+    <input id="name" formControlName="name" />
+    <label for="description">description:</label>
+    <input formControlName="description"/>
+    <p>cuisine:</p>
+    <div class="cuisines-wrapper">
+        <div class="radio-btn-wrapper" *ngFor="let c of cousines">
+            <input type="radio" id="c" name="c">
+            <label for="c">{{c}}</label>
+        </div>  
+    </div>
+    <p>categories:</p>
+    <div class="categories-wrapper">
+        <div class="checkbox-wrapper" *ngFor="let c of categories">
+            <input type="checkbox" id="c" name="c">
+            <label for="c">{{c}}</label>
+        </div>  
+    </div>
+    <label for="ingredients">ingredients:</label>
+    <input formControlName="ingredients"/>
+    <label for="maxNumber">maximum number of dishes:</label>
+    <input formControlName="maxNumber"/>
+    <label for="price">price:</label>
+    <input formControlName="price"/>
+    <label for="photos">photos:</label>
+    <input formControlName="photos"/>
+  </form>
+</div>

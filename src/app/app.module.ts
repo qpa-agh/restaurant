@@ -8,6 +8,9 @@ import { DishCardComponent } from './pages/main-page/dishes/dish-card/dish-card.
 import { DishesComponent } from './pages/main-page/dishes/dishes.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { ReservationChangerComponent } from './pages/main-page/dishes/dish-card/reservation-changer/reservation-changer.component';
+import { AddNewDishFormComponent } from './pages/main-page/add-new-dish-form/add-new-dish-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -17,13 +20,16 @@ import { ReservationChangerComponent } from './pages/main-page/dishes/dish-card/
     DishesComponent,
     MainPageComponent,
     ReservationChangerComponent,
+    AddNewDishFormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

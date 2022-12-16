@@ -1,0 +1,38 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cuisines-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+}
+
+.radio-btn-wrapper {
+    margin: 3px;
+}
+
+.radio-btn-wrapper label {
+    margin: 3px;
+}
+
+.categories-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+}
+
+.checkbox-wrapper {
+    margin: 3px;
+}
+
+.checkbox-wrapper label {
+    margin: 3px;
+}
