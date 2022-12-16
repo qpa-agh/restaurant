@@ -9,4 +9,5 @@
   <div class="image-wrapper">
     <img [src]="dish.photos[0]" alt="" />
   </div>
+  <app-reservation-changer (valueChanged)="handleButtonClick($event)" [maxValue]="dish.maxNumber"></app-reservation-changer>
 </div>

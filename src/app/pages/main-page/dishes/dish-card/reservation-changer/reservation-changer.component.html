@@ -1,0 +1,5 @@
+<div class="buttons-wrapper">
+  <button (click)="handleMinusClick()" [disabled]="value === 0">-</button>
+  <p #counter>0</p>
+  <button (click)="handlePlusClick()" [disabled]="value === maxValue">+</button>
+</div>
